@@ -99,8 +99,8 @@ run_edger <- function(count_dataframe, group) {
 #' Your results can be returned with topTable() after 
 #'
 #' **Note** that topTable() does _not_ sort by default. You may want 
-#' to read the help section on the `resort.by` parameter. We want the 
-#' 1,000 smallest p-values.
+#' to read the help section on the `resort.by` parameter. We want all
+#' of the p-values.
 #' 
 #' @examples run_limma(counts_df, design, voom=TRUE)
 run_limma <- function(counts_dataframe, design, group) {
